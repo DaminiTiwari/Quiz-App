@@ -1,0 +1,13 @@
+.app {
+  text-align: center;
+  min-height: 60vh;
+  /* padding: 1vh 1vh; */
+  height: auto;
+  margin:4vh 4vh;
+  background-image: url('../bg1.jpg') !important;
+  color: white;
+   object-fit: none;
+   border-radius: 2vh;
+}
+
+

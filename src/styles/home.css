@@ -1,0 +1,86 @@
+.home {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home__body {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0vh 2vh;
+    font-size: 2.3vh;
+    color: white;
+    min-height: 87vh;
+    padding-top: 3.2vh;
+}
+
+.home__body button {
+    background-color: transparent;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    border: .3vh solid rgba(255, 0, 0, 0.5);
+
+    border-radius: 2vh;
+    outline: 0;
+    padding: 1vh 2vh;
+    margin: 1vh 4vh;
+    color: white;
+}
+
+.home__body button:hover {
+
+    background-color: #012928;
+    font-size: 1.1rem;
+    letter-spacing: .12rem;
+    font-weight: 700;
+}
+
+
+.home__body__text {
+    font-size: large;
+    padding: 3vh 1vh;
+
+
+}
+
+.home__options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 1vh;
+    margin: 3vh 1vh;
+    color: white;
+    border-radius: 0vh 2vh;
+}
+
+.home__options select {
+    color: white;
+    padding: 1vh 1vh;
+    margin: 1vh 1vh;
+    width: 20%;
+    min-width: 10rem;
+    border: .3vh solid rgba(255, 0, 0, 0.5);
+
+    border-radius: 2vh;
+    outline: 0;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.home__options select option {
+
+    background-color: black;
+    border-radius: 2vh;
+    color: rgb(253, 253, 253);
+   
+
+}
+.home__options select input {
+
+    background-color: black;
+    border-radius: 2vh;
+    color: rgb(253, 253, 253);
+   
+
+}
